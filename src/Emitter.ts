@@ -15,7 +15,7 @@ class Emitter implements IEmitter {
     }
   }
   unsubscribe(type: string, callback: any) {
-    this.#events[type].filter((item: any) => item !== callback);
+    this.#events[type] = this.#events[type].filter((item: any) => item !== callback);
   }
   emit(type: string, data: any) {
     if (this.#events[type]) {
