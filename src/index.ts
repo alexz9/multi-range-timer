@@ -1,0 +1,1 @@
+export { MultiTimer as default } from "./MultiTimer";
