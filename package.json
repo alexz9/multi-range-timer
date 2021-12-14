@@ -1,16 +1,23 @@
 {
   "name": "multitimer",
   "version": "1.0.0",
-  "description": "",
-  "main": "./dist/index.js",
+  "description": "Multi-range timer with subscribe to events",
+  "author": "alex.z-9@ya.ru",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexz9/multitimer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexz9/multitimer/issues"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [],  
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
