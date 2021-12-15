@@ -1,4 +1,4 @@
-# multitimer
+# multi-range-timer
 Multi-range timer with subscribe to events
 
 Позволяет задать массив диапазонов работы таймера и получать события обновления оставшегося времени по каждому. 
