@@ -23,7 +23,7 @@ npm install multi-range-timer --save
 
 ```js
 import React, { useEffect, useState } from "react";
-import MultiTimer from "multitimer";
+import MultiTimer from "multi-range-timer";
 
 const Banner = () => {
   const [timerFace, setTimerFace] = useState("");
