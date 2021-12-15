@@ -28,7 +28,7 @@ export default function toTimerData(range: any): any {
   const minutes: number = dateDiff.getUTCMinutes();
   const hours: number = dateDiff.getUTCHours();
   const days: number = dateDiff.getUTCDate() - 1;
-  const months: number = dateDiff.getUTCMonth() + 1;
+  const months: number = dateDiff.getUTCMonth();
 
   const withZero: { [key: string]: any } = {
     seconds,
