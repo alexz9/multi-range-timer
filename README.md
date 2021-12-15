@@ -10,7 +10,7 @@ Multi-range timer with subscribe to events
 The package can be installed via [npm](https://github.com/npm/cli):
 
 ```
-npm install multitimer --save
+npm install multi-range-timer --save
 ```
 ## Использование
 
