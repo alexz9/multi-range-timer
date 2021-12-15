@@ -1,5 +1,5 @@
 {
-  "name": "multitimer",
+  "name": "multi-range-timer",
   "version": "1.0.0",
   "description": "Multi-range timer with subscribe to events",
   "author": "alex.z-9@ya.ru",
@@ -7,10 +7,10 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexz9/multitimer.git"
+    "url": "git+https://github.com/alexz9/multi-range-timer.git"
   },
   "bugs": {
-    "url": "https://github.com/alexz9/multitimer/issues"
+    "url": "https://github.com/alexz9/multi-range-timer/issues"
   },
   "scripts": {
     "prepublish": "npm run build",
